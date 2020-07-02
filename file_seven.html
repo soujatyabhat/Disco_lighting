@@ -1,0 +1,18 @@
+<html>
+<script>
+var timer;
+function run()
+{
+setInterval(color,1000)
+}
+
+function color()
+{
+    var array = ['red','blue','yellow','orange' ,'green','pink'];
+    i = Math.floor(Math.random() * 5);
+    document.body.style.backgroundColor=array[i];
+}
+</script>
+<body onload="run()">
+</body>
+</html>
